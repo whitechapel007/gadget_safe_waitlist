@@ -89,7 +89,10 @@ body {
 }
 
 .first-form .email:focus,
-.first-form .email:active {
+.first-form .email:active,
+.first-form .btn:focus,
+.first-form .btn:active,
+.first-form .btn {
     border: 0;
     outline: 0;
 }
@@ -98,7 +101,7 @@ body {
 .foot {
     font-family: "DM Sans";
     font-weight: 400;
-    font-size: 2.9rem;
+    font-size: 2rem;
     line-height: 78px;
     color: #FFFFFF;
     font-family: var(--dm-sans);
