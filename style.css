@@ -181,7 +181,7 @@ span {
 }
 
 .images-section .last-img {
-    align-self: flex-start;
+    align-self: flex-end;
     width: 100;
     object-position: cover;
     justify-self: end;
