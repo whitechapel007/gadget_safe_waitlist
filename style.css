@@ -168,15 +168,16 @@ span {
     width: 100%;
     text-align: center;
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     align-content: space-between;
     align-items: center;
+    padding: .4rem;
 }
 
 .images-section img {
-    width: 50%;
-    padding: .6rem .2rem;
+    height: fit-content;
+    padding: .3rem;
+    width: 49%;
     object-fit: cover;
 }
 
@@ -186,6 +187,14 @@ span {
     object-position: cover;
     justify-self: end;
     height: 100%;
+}
+
+.move-up {
+    margin-top: -48px;
+}
+
+.images-section .first-img {
+    align-self: flex-start;
 }
 
 @media (min-width:768px) {
