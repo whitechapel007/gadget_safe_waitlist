@@ -47,7 +47,7 @@ body {
     color: #7B7B7E;
     background-color: #35353A;
     border: 0;
-    padding: 1rem 2rem;
+    padding: 1.1rem 2rem;
     width: 60%;
     border-radius: 4px;
     margin-right: .3rem;
@@ -89,7 +89,7 @@ body {
         width: 100%;
     }
     .first-form .btn {
-        width: 60%;
+        width: 55%;
         font-size: 1.2rem;
         font-weight: 400;
     }
@@ -316,5 +316,11 @@ footer h2 {
     }
     .container img :hover {
         transform: scale(1.1);
+    }
+    .last-section {
+        margin-top: 4rem;
+    }
+    .last-section .foot {
+        font-size: 3rem;
     }
 }
