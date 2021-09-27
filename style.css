@@ -12,6 +12,11 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #8A9097;
+}
+
 body {
     min-height: 100vh;
     width: 100;
