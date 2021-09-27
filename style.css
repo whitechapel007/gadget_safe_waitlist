@@ -84,10 +84,10 @@ body {
     }
     .first-form {
         flex-direction: row;
-        width: 24rem;
+        justify-content: stretch;
     }
     .first-form .email {
-        width: 80%;
+        width: 100%;
     }
     .first-form .btn {
         width: 50%;
