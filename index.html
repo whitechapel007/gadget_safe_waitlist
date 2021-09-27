@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,11 @@
         <img src="./images/Rectangle.png" alt="" class="first-hand">
 
         <section class="first-form-section">
-            <form class="first-form" action="https://gadgetsafefeedback.herokuapp.com/api/users" method="POST">
+            <form class="first-form">
 
-                <input type=" email " name="email " id=" " class="email " placeholder="Email Address ">
+                <input type=" email " name="email" id=" " class="email " placeholder="Email Address ">
 
-                <button type="submit " class="btn outline ">Join Our Waitlist</button>
+                <button type="submit " class="btn outline form-submit">Join Our Waitlist</button>
             </form>
 
 
@@ -46,10 +47,10 @@ phone
 
     </div>
     <section class="hide ">
-        <form action="https://gadgetsafefeedback.herokuapp.com/api/users " method="POST " class="first-form ">
+        <form class="first-form ">
 
-            <input type="email " name="email " id=" " class="email " placeholder="Email Address ">
-            <button type="submit " class="btn ">Join Our Waitlist</button>
+            <input type="email " name="email" id=" " class="email " placeholder="Email Address ">
+            <button type="submit " class="btn form-submit">Join Our Waitlist</button>
         </form>
 
 
@@ -135,11 +136,11 @@ phone
     </section>
 
     <section class="foot-section ">
-        <form action="https://gadgetsafefeedback.herokuapp.com/api/users " method="POST " class="first-form edit ">
+        <form class="first-form edit" id="form">
 
 
             <input type="email " name="email" id=" " class="email " placeholder="Email Address ">
-            <button type="submit " class="btn ">Join Our Waitlist</button>
+            <button type="submit " class="btn form-submit">Join Our Waitlist</button>
         </form>
 
 
