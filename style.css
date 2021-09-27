@@ -293,7 +293,6 @@ footer {
 footer h2 {
     cursor: pointer;
     font-size: .9rem;
-    height: 10vh;
     padding: 1rem;
     font-family: var(--dm-sans);
     font-weight: 400;
